@@ -3,7 +3,7 @@ import { Schema, model, models } from 'mongoose';
 export interface IFavYoutubeVideoSchema {
   title: string,
   description: string,
-  thumbnailUrl?: string
+  thumbnailUrl?: string,
   watched: boolean,
   youtuberName: string
 }

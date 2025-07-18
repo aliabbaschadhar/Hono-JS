@@ -75,7 +75,7 @@ dbConnect()
         for (let i = 0; i < document.description.length; i++) {
           await stream.write(document.description[i])
           //wait 0.5 seconds.
-          await stream.sleep(500)
+          await stream.sleep(50)
 
         }
       })
